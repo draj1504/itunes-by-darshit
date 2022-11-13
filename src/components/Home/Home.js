@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect } from "react";
 import "../common.css";
 import { ITunesContext } from "../../contextAPI/Context";
 import AlbumCard from "../Albumcard/AlbumCard";
