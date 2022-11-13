@@ -1,0 +1,8 @@
+.MuiBottomNavigationAction-label{
+    color: white;
+}
+
+.Mui-selected{
+    color: white;
+    font-weight: bold;
+}

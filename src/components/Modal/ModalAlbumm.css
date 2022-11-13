@@ -1,0 +1,9 @@
+@media (min-width: 10px) and (max-width: 448px) {
+  .modal-wrapper {
+    height: 90% !important;
+    width: 70% !important;
+  }
+  .modal-close-btn {
+    margin-left: 7% !important;
+  }
+}

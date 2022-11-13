@@ -1,0 +1,93 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 5px 0px 5px;
+  margin-bottom: 25px;
+  background-color: #282c34;
+  border-radius: 10px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.media:hover {
+  background-color: white;
+  color: black;
+}
+
+.MuiBadge-root {
+  position: absolute !important;
+  left: 85% !important;
+  top: 4% !important;
+  color: white !important;
+}
+
+@media (min-width: 449px) and (max-width: 624px) {
+  .media {
+    width: 46%;
+    padding: 10px 3px 10px 3px;
+  }
+}
+
+@media (min-width: 10px) and (max-width: 448px) {
+  .media {
+    width: 40% !important;
+  }
+}
+
+@media (min-width: 10px) and (max-width: 400px) {
+  .title {
+    font-size: 12px !important;
+  }
+  .subTitle {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .media {
+    width: 46%;
+  }
+}
+
+@media (max-width: 348px) {
+  .media {
+    width: 75% !important;
+  }
+  .title {
+    font-size: 15px !important;
+  }
+  .subTitle {
+    font-size: 15px !important;
+  }
+}
+
+.poster {
+  border-radius: 10px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding: 8px 0;
+  margin-bottom: 7px;
+}
+
+.subTitle {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 3px;
+  padding: 0 2px;
+  padding-bottom: 3px;
+}
+.releaseDate {
+  display: flex;
+  float: right;
+  justify-content: right;
+}
+.favouriteIcon {
+  width: 100%;
+}

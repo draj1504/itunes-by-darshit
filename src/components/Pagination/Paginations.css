@@ -1,0 +1,21 @@
+.pagination-container {
+  background-color: white;
+  border-radius: 25px;
+  color: black;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Mui-selected {
+  background-color: black !important;
+  color: white !important;
+  font-weight: bold;
+}
+.MuiPaginationItem-ellipsis {
+  color: black !important;
+}
+
+.MuiPaginationItem-previousNext {
+  display: none !important;
+}
